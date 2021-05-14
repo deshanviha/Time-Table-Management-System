@@ -164,6 +164,12 @@
     <Compile Include="addlocation.Designer.cs">
       <DependentUpon>addlocation.cs</DependentUpon>
     </Compile>
+    <Compile Include="addSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addSession.Designer.cs">
+      <DependentUpon>addSession.cs</DependentUpon>
+    </Compile>
     <Compile Include="addSubject.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +177,7 @@
       <DependentUpon>addSubject.cs</DependentUpon>
     </Compile>
     <Compile Include="Controller\addLecturerControl.cs" />
+    <Compile Include="Controller\addSessionControl.cs" />
     <Compile Include="Controller\addSubjectControl.cs" />
     <Compile Include="Controller\locationControl.cs" />
     <Compile Include="DBConnection\DBcon.cs" />
@@ -204,6 +211,12 @@
     <Compile Include="manageLecturer.Designer.cs">
       <DependentUpon>manageLecturer.cs</DependentUpon>
     </Compile>
+    <Compile Include="manageSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manageSession.Designer.cs">
+      <DependentUpon>manageSession.cs</DependentUpon>
+    </Compile>
     <Compile Include="manageSubject.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -211,6 +224,7 @@
       <DependentUpon>manageSubject.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\addLecturerModel.cs" />
+    <Compile Include="Model\addSessionModel.cs" />
     <Compile Include="Model\addSubjectModel.cs" />
     <Compile Include="Model\locationModel.cs" />
     <Compile Include="Program.cs" />
@@ -220,6 +234,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="addLecturer.resx">
       <DependentUpon>addLecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addSession.resx">
+      <DependentUpon>addSession.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="addSubject.resx">
       <DependentUpon>addSubject.cs</DependentUpon>
@@ -235,6 +252,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="manageLecturer.resx">
       <DependentUpon>manageLecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manageSession.resx">
+      <DependentUpon>manageSession.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="manageSubject.resx">
       <DependentUpon>manageSubject.cs</DependentUpon>

@@ -24,8 +24,11 @@ namespace Time_Table_Management_System
         {
             panellocation.Visible = false;
             sub_panel.Visible = false;
+            sub_panel1.Visible = false;
 
         }
+
+
 
         private void hideSubMenu()
         {
@@ -35,6 +38,8 @@ namespace Time_Table_Management_System
 
             if (sub_panel.Visible = true)
                 sub_panel.Visible = false;
+            if (sub_panel1.Visible = true)
+                sub_panel1.Visible = true;
 
         }
 
@@ -180,6 +185,147 @@ namespace Time_Table_Management_System
         }
 
         private void panelchildForm_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button13_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sub_panel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button13_Click_2(object sender, EventArgs e)
+        {
+            openChildForm(new addSession());
+            showSubMenu(sub_panel1);
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button12_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panellocation_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button16_Click_3(object sender, EventArgs e)
+        {
+            openChildForm(new manageSession());
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel9_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button14_Click_1(object sender, EventArgs e)
+        {
+            openChildForm(new addSession());
+        }
+
+        private void Homepage_Load(object sender, EventArgs e)
         {
 
         }

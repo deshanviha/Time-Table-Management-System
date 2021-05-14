@@ -105,6 +105,7 @@ namespace Time_Table_Management_System
 
         }
 
+        //rank genarate key method
         private void button2_Click(object sender, EventArgs e)
         {
 
@@ -138,6 +139,7 @@ namespace Time_Table_Management_System
 
         }
 
+        // feild reset method
         private void reset()
         {
             lec_Name.Clear();
